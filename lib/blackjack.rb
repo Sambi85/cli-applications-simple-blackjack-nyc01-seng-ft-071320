@@ -57,9 +57,9 @@ end
 
 def runner
 welcome
-total = initial_round
+start = initial_round
 
-until total > 21
+until start > 21
 total = hit?(total)
 display_card_total(initial_round)
 end
