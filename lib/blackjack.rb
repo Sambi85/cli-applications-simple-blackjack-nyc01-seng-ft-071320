@@ -61,8 +61,9 @@ total = initial_round
 
 until total > 21
 total = hit?(total)
-display_card_total(initial_round)
+  display_card_total(initial_round)
     end
   end_game(total)
 end
     
+runner
