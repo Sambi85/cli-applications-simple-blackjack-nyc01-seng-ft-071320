@@ -34,15 +34,15 @@ def hit? (current_total)
   prompt_user
     input = get_user_input
 
-if input == "h"
-  current_total += deal_card
+  if input == "h"
+    current_total += deal_card
 
-elsif input == 's'
-  current_total
+  elsif input == 's'
+    current_total
 
-else
-  invalid_command
-  prompt_user
+  else
+    invalid_command
+    prompt_user
   end
 end
 
