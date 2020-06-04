@@ -41,8 +41,8 @@ elsif input == 's'
   current_total
 
 else
-invalid_command
-   prompt_user
+  invalid_command
+    prompt_user
   end
 end
 
