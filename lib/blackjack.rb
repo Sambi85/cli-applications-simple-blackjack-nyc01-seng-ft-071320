@@ -42,13 +42,13 @@ elsif input == 's'
 
 else
   invalid_command
-print prompt_user
+  prompt_user
   end
 end
 
 
 def invalid_command
-puts "Please enter a valid command"
+  "Please enter a valid command"
 end
 
 #####################################################
