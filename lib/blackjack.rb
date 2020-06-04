@@ -56,8 +56,8 @@ end
 #####################################################
 
 def runner
-  welcome
-    total = initial_round
+welcome
+total = initial_round
 
 until total > 21
   display_card_total(initial_round)
