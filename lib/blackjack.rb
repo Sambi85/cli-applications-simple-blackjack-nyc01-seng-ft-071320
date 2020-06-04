@@ -42,7 +42,7 @@ elsif input == 's'
 
 else
   invalid_command
-print 
+print prompt_user
   end
 end
 
