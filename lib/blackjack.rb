@@ -67,6 +67,3 @@ until total > 21
   end_game(total)
 end
     
-  runner
-end
-    
