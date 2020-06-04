@@ -60,7 +60,7 @@ welcome
 start = initial_round
 
 until start > 21
-total = hit?(total)
+total = hit?(start)
 display_card_total(initial_round)
 end
   end_game(total)
